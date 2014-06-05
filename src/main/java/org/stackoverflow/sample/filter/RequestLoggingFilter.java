@@ -1,4 +1,4 @@
-package org.stackoverflow.sample.controller;
+package org.stackoverflow.sample.filter;
 
 import java.io.IOException;
 
@@ -11,13 +11,6 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.aol.logging.filter.LoggingRequestWrapper;
-import com.aol.logging.filter.LoggingResponseWrapper;
-
-
-/**
- * @author Vikram.Gadang
- */
 public class RequestLoggingFilter implements Filter {
 
 	

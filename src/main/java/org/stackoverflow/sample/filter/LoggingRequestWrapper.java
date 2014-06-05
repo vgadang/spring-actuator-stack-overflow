@@ -1,4 +1,4 @@
-package com.aol.logging.filter;
+package org.stackoverflow.sample.filter;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;

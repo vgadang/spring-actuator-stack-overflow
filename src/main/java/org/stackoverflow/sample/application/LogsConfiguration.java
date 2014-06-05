@@ -6,7 +6,7 @@ import javax.servlet.ServletRequestListener;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.context.request.RequestContextListener;
-import org.stackoverflow.sample.controller.RequestLoggingFilter;
+import org.stackoverflow.sample.filter.RequestLoggingFilter;
 
 @Configuration
 public class LogsConfiguration {
